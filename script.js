@@ -1,32 +1,41 @@
-var initialPath = "M 10 100 Q 250 100 990 100";
-var finalPath = "M 10 100 Q 250 100 990 100";
+// var num=10
+// console.log(num)
+// console.log(typeof(num))
 
-var string = document.querySelector("#main")
-var str = document.querySelector("#main")
+// num=false
+// console.log(num)
+// console.log(typeof(num))
 
-string.addEventListener("mousemove", function (dets) {
-    path = `M 10 100 Q ${dets.x} ${dets.y} 990 100`
-    gsap.to("svg path", {
-        attr: { d: path },
-        duration: 0.5,
-        ease: "power3.out"
-    })
-    gsap.to("svg circle", {
-        attr: { cx: dets.x, cy: dets.y },
-        duration: 0.5,
-        ease: "power3.out"
-    })
+// num="hello"
+// console.log(num)
+// console.log(typeof(num))
 
-})
-string.addEventListener("mouseleave", function () {
-    gsap.to("svg path", {
-        attr: { d: finalPath },
-        duration: 1.5,
-        ease: "elastic.out(1,0.2)"
-    })
-    gsap.to("svg circle", {
-        attr: { cx: 95, cy: 75 },
-        duration: 1.5,
-        ease: "elastic.out(1,0.2)"
-    })
-})
+// num=null
+// console.log(num)
+// console.log(typeof(num))
+
+// num=undefined
+// console.log(num)
+// console.log(typeof(num))
+
+// var h=Symbol(2)
+// console.log(h)
+// console.log(typeof(h))
+// var h1=Symbol(2)
+// console.log(h1)
+// console.log(typeof(h1))
+// if(h==h1){
+//     console.log("true")
+// }  
+// else{
+//     console.log("false")
+// }
+
+var a=10
+var b=20
+var c=30
+var d="<br>"
+document.write("a+b+c=")
+var result=a+b+c
+document.write(result)
+document.write(d)
