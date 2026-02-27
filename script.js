@@ -1,6 +1,18 @@
-let age=20
-if(age>=18){
-    console.log("You are eligible to vote.");
-}else{ 
-    console.log("You are not eligible to vote.");
+let grade="A"
+switch(grade){
+    case "A":
+        console.log("Excellent")
+        break;
+    case "B":
+        console.log("Good")
+        break;
+    case "C":
+        console.log("Average")
+        break;
+    case "D":
+        console.log("Below Average")
+        break;
+    case "F":
+        console.log("Fail")
+        break;
 }
