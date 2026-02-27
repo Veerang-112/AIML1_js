@@ -15,4 +15,6 @@ switch(grade){
     case "F":
         console.log("Fail")
         break;
+    default:
+        console.log("Invalid grade")
 }
