@@ -1,4 +1,9 @@
-var ass2=(a,b)=>{
-    console.log("The sum of " + a + " and " + b + " is: " + (a+b));
-}
-ass2(5,10);
+let person = {
+    name: "John",
+    age: 30,
+    isMarried: false,
+    address: {
+        street: "123 Main St",
+        city: "New York",}
+};
+console.log(person.address.street)
