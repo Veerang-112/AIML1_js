@@ -1,4 +1,5 @@
-const person={fname:"John", mname:"Doe", lname:"Smith"};
-for(let key in person){
-    console.log(key + ": " + person[key]);
+let x=0
+while(x<10){
+    console.log("CurrentCount: " + x)
+    x++
 }
