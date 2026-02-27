@@ -1,5 +1,6 @@
-let x=0
-while(x<10){
-    console.log("CurrentCount: " + x)
-    x++
+let age=20
+if(age>=18){
+    console.log("You are eligible to vote.");
+}else{ 
+    console.log("You are not eligible to vote.");
 }
