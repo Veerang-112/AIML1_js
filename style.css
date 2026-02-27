@@ -3,3 +3,11 @@
     margin: 0;
     box-sizing: border-box;
 }
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url("https://wallpapercat.com/w/full/5/c/0/2117697-3840x2160-desktop-4k-dark-wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 95%;
+}
