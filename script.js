@@ -1,3 +1,3 @@
-var myinfo=new Array();
-var myinfo1=Array();
-console.log(myinfo,myinfo1);
+const result=document.getElementById("main");
+result.innerHTML="Hello World";
+result.title="This is a title";
